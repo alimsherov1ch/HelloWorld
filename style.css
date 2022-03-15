@@ -1,0 +1,18 @@
+
+.contact {
+    border-radius: 10px;
+}
+
+.section-header {
+    position: relative;
+}
+
+.section-header::before {
+    content: "";
+    position: absolute;
+    left: calc(50% - 80px);
+    top: -1rem;
+    width: 160px;
+    height: 19px;
+    background: url(Fill-1.png) no-repeat 100%;
+}
